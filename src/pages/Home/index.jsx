@@ -7,9 +7,9 @@ export function Home() {
       <h1>Lista de presença</h1>
       <input type="text" placeholder="Digite o nome..."></input>
       <button type="button">Adicionar</button>
-      <Card />
-      <Card />
-      <Card />
+      <Card name="Diego" time="10:55:25" />
+      <Card name="Vanessa" time="11:10:26" />
+      <Card name="Maria" time="12:16:55" />
     </div>
   );
 }
