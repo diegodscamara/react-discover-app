@@ -30,7 +30,10 @@ export function Home() {
         Adicionar
       </button>
       {students.map((student) => (
-        <Card key={student.id} name={student.name} time={student.time} />
+        <Card 
+          key={student.time} 
+          name={student.name} 
+          time={student.time} />
       ))}
     </div>
   );
